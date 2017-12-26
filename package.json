@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/atatarinov/gameOfLifeReact/issues"
   },
-  "homepage": "https://github.com/atatarinov/gameOfLifeReact#readme"
+  "homepage": "https://github.com/atatarinov/gameOfLifeReact#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
 }
