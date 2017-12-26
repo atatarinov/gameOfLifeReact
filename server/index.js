@@ -13,7 +13,6 @@ app.use(bodyParser.json());
 app.use(express.static(resolve(__dirname, '..', 'public')));
 app.get('/*', (_, res) => res.sendFile(resolve(__dirname, '..', 'public', 'index.html')));
 
-
 app.get('*', function (req, res) {
   res.sendFile(path.join(__dirname, './public/index.html'));
 });
