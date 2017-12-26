@@ -7,4 +7,11 @@
 
 ## Setup
 
-npm install
+`npm install`
+Start the build process with: `npm run build-watch`
+To start the server `npm start`
+
+
+
+
+
